@@ -1,0 +1,32 @@
+div{padding-left:10px;padding-right:10px;padding-bottom:10px;border:3px solid;border-color:white;border-radius:6px;background-color:#028599}
+.ochreDiv{padding-left:10px;padding-right:10px;padding-bottom:10px;border:3px solid;border-color:white;border-radius:6px;background-color:#878844}
+.addBox{padding:10px;border:3px solid;border-color:white;border-radius:6px;background-color:#878844}
+h3,h2{font-family: 'Roboto Slab', serif;color:white;padding:0px}
+p{font-size:17px;font-family: 'Helvetica', bold;color:white;font-weight:normal}
+label{font-size:12px;font-family: 'Helvetica', bold;color:white}
+input,select{border-radius:6px;caret-color:#db8bb9;font-size:17px;padding-left:1px;border-top: transparent;border-left: transparent;border-right: transparent;border-bottom: transparent;border-color:#028599;font-family: 'Helvetica', bold;
+color:white;background-color:#4b407c;outline:none;-webkit-appearance: none;box-shadow: none;width:100%}
+select:selection{background: url(assets/List.png) no-repeat right #ddd;}
+select:focus{background-color:#7c70b0}
+select:hover{background-color:#7c70b0}
+input:focus,input:active,input:hover{background-color:#7c70b0}
+input{caret-color:#db8bb9}
+input:selection,p::selection{background-color:#db8bb9}
+.submit{margin-top:2px;border-radius:6px;border:0px solid;border-color:black;font-family: 'Helvetica', bold;color:#dbbfcf;background-color:#aa3e7c;width:100px}
+.submit:hover{margin-top:2px;border-radius:6px;border:0px solid;border-color:black;font-family: 'Helvetica', bold;color:white;background-color:#d978b0;width:100px}
+option{font-size:17px}
+textarea{caret-color:#db8bb9;border-color:#028599;background-color:#4b407c;color:white;font-family: 'Helvetica'}
+textarea:active,textarea:hover{background-color:#7c70b0}
+.button:hover{margin-left:10px;padding:5px;font-family: 'Helvetica', bold;color:white;background-color:#d978b0;border-radius:6px;font-size:17px;text-decoration:none}
+.button{margin-left:10px;padding:5px;font-family: 'Helvetica', bold;color:#dbbfcf;background-color:#aa3e7c;border-radius:6px;font-size:17px;text-decoration:none}
+#footer{height:10px;}
+#footerTxt{margin-top:1px;font-size:12px;color:#cacb87;float:right}
+#logOffBtn:hover{content : url ('assets/logOut_hover.png')}
+@media screen and (min-width:380px) {#footerTxt{font-size:12px;}}
+@media screen and (max-width:380px) {#footerTxt{font-size:9px;}}
+@media screen and (min-width:380px) {#header{font-size:16px;}}
+@media screen and (max-width:380px) {#header{font-size:12px;}}
+@media screen and (min-width:380px) {#logInTxt{font-size:16px;}}
+@media screen and (max-width:380px) {#logInTxt{font-size:9px;}}
+@media screen and (min-width:380px) {h3{font-size:18px;}}
+@media screen and (max-width:380px) {h3{font-size:12px;}}
